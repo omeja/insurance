@@ -1,0 +1,173 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="insurance.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            width: 220px;
+        }
+        .style3
+        {
+            width: 220px;
+            height: 141px;
+        }
+        .style4
+        {
+            height: 141px;
+        }
+        .style5
+        {
+            width: 220px;
+            height: 188px;
+        }
+        .style6
+        {
+            height: 188px;
+        }
+        .style7
+        {
+            color: #663300;
+            text-align: center;
+        }
+        .style8
+        {
+            width: 169px;
+            height: 31px;
+        }
+    </style>
+</head>
+<body>
+<form id="form1" runat="server">
+    <table class="style1">
+        <tr>
+            <td class="style5">
+                <asp:Image ID="Image1" runat="server" Height="128px" 
+                    ImageUrl="~/images/market-logo.jpg" Width="202px" />
+                <img alt="" class="style8" src="images/logo1.jpg" /></td>
+            <td class="style6">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <asp:Label ID="Label1" runat="server" Font-Bold="True" ForeColor="#006600" 
+                    style="position: absolute; z-index: 1; left: 697px; top: 185px"></asp:Label>
+            </td>
+        </tr>
+        <tr>
+            <td class="style3" valign="middle" align="center">
+                <asp:TreeView ID="TreeView1" runat="server" ImageSet="Simple" Width="249px" 
+                    onselectednodechanged="TreeView1_SelectedNodeChanged" 
+                    
+                    style="text-align: center; z-index: 1; left: 13px; top: 227px; position: absolute; height: 499px; width: 249px;">
+                    <HoverNodeStyle Font-Bold="False" Font-Underline="True" ForeColor="#5555DD" />
+                    <LeafNodeStyle Font-Bold="False" />
+                    <Nodes>
+                        <asp:TreeNode Text="Data Capture" Value="Data Capture">
+                            <asp:TreeNode Text="Agents" Value="Agents"></asp:TreeNode>
+                            <asp:TreeNode Text="Refferals" Value="Refferals"></asp:TreeNode>
+                        </asp:TreeNode>
+                        <asp:TreeNode Text="Reports" Value="Reports">
+                            <asp:TreeNode Text="Agents" Value="Agents"></asp:TreeNode>
+                            <asp:TreeNode Text="Referrals By Agent" Value="Referrals By Agent">
+                            </asp:TreeNode>
+                            <asp:TreeNode Text="Referrals By Date" Value="Referrals By Date"></asp:TreeNode>
+                            <asp:TreeNode Text="All Referrals" Value="All Referrals"></asp:TreeNode>
+                        </asp:TreeNode>
+                        <asp:TreeNode Text="Setup" Value="Setup">
+                            <asp:TreeNode Text="Company Types" Value="Company Types" 
+                                NavigateUrl="~/frmCompanyType.aspx"></asp:TreeNode>
+                            <asp:TreeNode Text="Companies" Value="Companies"></asp:TreeNode>
+                            <asp:TreeNode Text="Policy Types" Value="Policy Types"></asp:TreeNode>
+                            <asp:TreeNode Text="Policies" Value="Policies"></asp:TreeNode>
+                        </asp:TreeNode>
+                        <asp:TreeNode Text="Manage" Value="Manage">
+                            <asp:TreeNode NavigateUrl="~/frmManage.aspx" Text="Company Types" 
+                                Value="Company Types"></asp:TreeNode>
+                            <asp:TreeNode Text="Companies" Value="Companies"></asp:TreeNode>
+                            <asp:TreeNode Text="Policy Types" Value="Policy Types"></asp:TreeNode>
+                            <asp:TreeNode Text="Policies" Value="Policies"></asp:TreeNode>
+                        </asp:TreeNode>
+                    </Nodes>
+                    <NodeStyle Font-Bold="False" Font-Names="Tahoma" Font-Size="10pt" 
+                        ForeColor="Black" HorizontalPadding="0px" NodeSpacing="0px" 
+                        VerticalPadding="10px" />
+                    <ParentNodeStyle Font-Bold="False" />
+                    <RootNodeStyle Font-Bold="True" ForeColor="Black" />
+                    <SelectedNodeStyle Font-Underline="True" ForeColor="#5555DD" 
+                        HorizontalPadding="0px" VerticalPadding="0px" />
+                </asp:TreeView>
+            </td>
+            <td class="style4">
+    
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                <br />
+            </p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+            </td>
+        </tr>
+        <tr>
+            <td class="style2">
+                &nbsp;</td>
+            <td class="style7">
+                <strong style="text-align: left">Powered By Planit Consults</strong></td>
+        </tr>
+    </table>
+    </body>
+</html>

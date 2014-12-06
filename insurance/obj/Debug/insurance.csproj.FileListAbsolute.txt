@@ -1,0 +1,5 @@
+D:\Projects\insurance\insurance\bin\insurance.dll
+D:\Projects\insurance\insurance\bin\insurance.pdb
+D:\Projects\insurance\insurance\obj\Debug\insurance.dll
+D:\Projects\insurance\insurance\obj\Debug\insurance.pdb
+D:\Projects\insurance\insurance\obj\Debug\insurance.csprojResolveAssemblyReference.cache
