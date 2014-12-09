@@ -56,8 +56,13 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="frmAgent.aspx" />
+    <Content Include="frmAgentCategory.aspx" />
+    <Content Include="frmCompany.aspx" />
     <Content Include="frmCompanyType.aspx" />
     <Content Include="frmManage.aspx" />
+    <Content Include="frmPolicy.aspx" />
+    <Content Include="frmPolicyType.aspx" />
     <Content Include="images\logo1.jpg" />
     <Content Include="images\market-logo.jpg" />
     <Content Include="Styles\Site.css" />
@@ -117,6 +122,27 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="frmAgent.aspx.cs">
+      <DependentUpon>frmAgent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmAgent.aspx.designer.cs">
+      <DependentUpon>frmAgent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgentCategory.aspx.cs">
+      <DependentUpon>frmAgentCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmAgentCategory.aspx.designer.cs">
+      <DependentUpon>frmAgentCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmCompany.aspx.cs">
+      <DependentUpon>frmCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmCompany.aspx.designer.cs">
+      <DependentUpon>frmCompany.aspx</DependentUpon>
+    </Compile>
     <Compile Include="frmCompanyType.aspx.cs">
       <DependentUpon>frmCompanyType.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -130,6 +156,20 @@
     </Compile>
     <Compile Include="frmManage.aspx.designer.cs">
       <DependentUpon>frmManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmPolicy.aspx.cs">
+      <DependentUpon>frmPolicy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmPolicy.aspx.designer.cs">
+      <DependentUpon>frmPolicy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmPolicyType.aspx.cs">
+      <DependentUpon>frmPolicyType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmPolicyType.aspx.designer.cs">
+      <DependentUpon>frmPolicyType.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
